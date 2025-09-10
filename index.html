@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>   
+                <img src="images/logo.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <span
+                  class="txt-rotate"
+                  data-period="2000"
+                  data-rotate='[ "AI/ML Student", "Front-End Designer", "Problem-Solver", "Singer", "Collaborator"]'
+                ></span>
+                <h1>Hi, I'm <span>Esanth Pathak</span><br>from Hyderabad, India</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2025-04-20 at 17.08.42_4fc336c8.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Esanth Pathak, a Computer Science undergraduate specializing in AI and Machine Learning. Based in Hyderabad, India, I'm passionate about building dynamic web applications that are both functional and visually appealing.</p><br>
+
+                    <p>My skills include Python, HTML, CSS, and JavaScript, which I've used to create projects like a password strength checker and an AI-powered game platform. I'm currently expanding my professional skills through an internship with Nobel Learning PBC, where I'm gaining hands-on experience in web design with WordPress.</p><br>
+
+                    <p>I believe in continuous learning and enjoy tackling complex challenges. Whether I'm leading a team as the Chief Executive of TEAM-MREC or contributing to new projects, I'm always eager to grow and collaborate. Feel free to connect with me on LinkedIn or check out my GitHub to see my work.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Python, C, HTML, CSS, SQL</li>
+                        <li><span>Libraries/Frameworks</span><br>Scikit-learn, Pandas, NumPy </li>
+                        <li><span>Tools</span><br>Tableau, Figma, GitHub, VS Code, WordPress</li>
+                        <li><span>Soft Skills</span><br>Problem Solving, Teamwork, Communication, Adaptability</li>
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                    </ul>
+                </div> -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-Present</span><br>B.Tech Computer Science and Engineering at Malla Reddy Engineering College</li>
+                        <li><span>2021</span><br>12th standard at Kendriya Vidyalaya Karwar</li>
+                        <li><span>2019</span><br>10th standard at Navy Children School Visakhapatnam</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-----------------------projects------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/hospital.png" alt="Hospital Management System">
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>A web application for managing hospital operations, including patient records, appointments, and billing.</p>
+                        <a href="https://github.com/esanthpathak27/Hospital-management-system"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/code-to-play.jpg" alt="Code-to-Play">
+                    <div class="layer">
+                        <h3>Code-to-Play</h3>
+                        <p>An AI-powered web platform that generates and runs 2D games from natural language prompts, enabling anyone to create and
+                            play games without coding. The application is made using React
+                            (Next.js), Gemini API, and Phaser.js</p>
+                        <a href="https://github.com/esanthpathak27/Code-To-Play"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/explainflow.png" alt="Explain Flow">
+                    <div class="layer">
+                        <h3>Explain Flow</h3>
+                        <p>ExplainFlow is an AI-powered tool that helps users visualize their explanations as flowcharts, receive feedback, and get AI-powered suggestions for improvement. 
+                            It is designed for students, educators, and interviewees to make their thinking visible and structured.</p>
+                        <a href="https://github.com/esanthpathak27/explainflow" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather.jpeg">
+                    <div class="layer">
+                        <h3>Weather Report Application</h3>
+                        <p>A simple Weather application that gives the accurate weather information of any location you want. Made using HTML, CSS and JS</p>
+                        <a href="https://github.com/esanthpathak27/weather-report-application" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/lung.jpeg">
+                    <div class="layer">
+                        <h3>Lung Cancer Prediction</h3>
+                        <p>A GUI-based Python application built using Tkinter that allows users to predict the stages of lung cancer from medical images using a Convolutional Neural Network (CNN).</p>
+                        <a href="https://github.com/esanthpathak27/Lung-Cancer-Prediction" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="images/music recommedation.avif">
+                    <div class="layer">
+                        <h3>Emotion Based Music Recommendation system</h3>
+                        <p>A music recommendation system that suggests songs based on the user's emotional state using machine learning algorithms.</p>
+                        <a href="" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-----------------------contact----------------->
+    <div class="contact" id="contact">
+        <div class="conatiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> esanthp@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  +91 8320439625</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/esanthpathak27"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/esanth-pathak-ba78891b2/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ee___shant/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/22J41A6620.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2025 Esanth Pathak</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+               tablink.classList.remove("active-link"); 
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+class TxtRotate {
+  constructor(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.isDeleting = false;
+    this.tick();
+  }
+  tick() {
+    const i = this.loopNum % this.toRotate.length;
+    const fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    let delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(() => this.tick(), delta);
+  }
+}
+
+window.onload = function() {
+  const elements = document.getElementsByClassName('txt-rotate');
+  for (let i=0; i<elements.length; i++) {
+    const toRotate = elements[i].getAttribute('data-rotate');
+    const period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // Optional: inject CSS for cursor
+  const css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #fff }";
+  document.body.appendChild(css);
+
+  
+};
+</script>
+</body>
+</html>
