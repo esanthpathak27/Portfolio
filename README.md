@@ -24,10 +24,6 @@ This project showcases my skills, projects, and contact information.
 └── images/
 ```
 
-## 🖼️ Screenshots
-
-_Add screenshots of your site here!_
-
 ## 📝 Usage
 
 1. Clone the repository:
